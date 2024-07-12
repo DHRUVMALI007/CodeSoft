@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="fullbody" id="home">
+        <div class="container ">
+            <nav class="navbar navbar-light navbar-expand-lg text-font">
+                <span class="navbar-brand mb-0 h1 text-white">Burger Mania</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#book">Book Table</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex text-center ">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="h-500 mt-100">
+                <h5 class="tex-white font-weight-bold">Card title</h5>
+                <p class="font-weight-bold mt-sm-2">Some quick example text to build on the card title and make up the
+                    bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary mt-sm-4">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container text-white">
+            <div class="row mt-100 ml-5">
+                <div class="col-lg-6 ">
+                    <div class="box d-sm-flex bg-dark box-rad  mt-xl-0  ">
+                        <div class="img-box d-flex justify-content-center m-md-5"><img src="./Images/o1.jpg"
+                                height="160px" alt="" class=""></div>
+                        <div class="detail-box mt-lg-5 md  p-md-3 ">
+                            <h5>Tasty Thursdays</h5>
+                            <h1>20% off</h1>
+                            <button type="button" class="btn btn-primary border-rounded ">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="box d-sm-flex bg-dark box-rad mt-lg-0 mt-5 ">
+                        <div class="img-box  d-flex justify-content-center  m-md-5 "><img src="./Images/o2.jpg" alt=""
+                                height="160px" class=""></div>
+                        <div class="detail-box mt-lg-5 md p-md-3 ">
+                            <h5>Pizza Days</h5>
+                            <h1>30% off</h1>
+                            <button type="button" class="btn btn-primary border-rounded">Order Now </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-50" id="menu">
+        <div class="container">
+            <h2 class="text-center">Our Menu</h2>
+            <ul class="nav justify-content-center ">
+                <li class="nav-item p-3">
+                    <a class="nav-link Active bg-dark b-20 text-white " href="#">Active</a>
+                </li>
+                <li class="nav-item p-3">
+                    <a class="nav-link bg-dark b-20  text-white" href="#">Link</a>
+                </li>
+                <li class="nav-item p-3">
+                    <a class="nav-link bg-dark b-20 text-white" href="#">Link</a>
+                </li>
+                <li class="nav-item p-3">
+                    <a class="nav-link bg-dark b-20 text-white" href="#">Disabled</a>
+                </li>
+            </ul>
+            <div class="row ">
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec d-flex  justify-content-center align-items-center ">
+                        <img class="" src="./Images/f1.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class=" pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f2.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam
+                            .</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f3.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f4.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f5.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f6.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f7.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f8.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6  col-lg-4 data mt-3">
+                    <div class="img-sec  d-flex  justify-content-center align-items-center ">
+                        <img class="m-6" src="./Images/f9.png" alt="Card image cap" width="50%" height="50%">
+                    </div>
+                    <div class="d-section bg-dark text-white px-4">
+
+                        <h4 class="pt-4">Delicious Pasta</h4>
+                        <p class="fs-6">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <div>
+                            <span class=" ">$20</span>
+                            <button type="button" class="btn btn-primary float-end "> Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 d-flex justify-content-center "><button type="button" class="btn btn-lg btn-primary">View
+            More</button></div>
+    <div class="bg-dark mt-4 h-600">
+        <div class="container" >
+            <div class="row py-sm-5 " id="about">
+                <div class="col-md-6 d-flex  justify-content-center mt-50 order-last order-md-first pt-md-50">
+                    <img src="./Images/about-img.png" class="sm-image " alt="" height="550px" width="auto">
+                </div>
+                <div
+                    class="col-md-6  order-first order-md-last text-white mt-md-0 mt-5 pl-xl-0 pl-md-5  d-flex justify-content-center flex-column align-items-start ">
+                    <div class="pl-20">
+                        <h2 class="head my-3">We Are Feane</h2>
+                        <p class="para"> There are many variations of passages of Lorem Ipsum available, but the
+                            majority have suffered
+                            alteration in some form, by injected humour, or randomised words which don't look even
+                            slightly
+                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there
+                            isn't
+                            anything embarrassing hidden in the middle of text. All
+                        </p>
+                        <button type="button" class="btn btn-primary mt-4">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="book">
+        <div>
+            <h1 class="mx-2 mt-3">Book A Table</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="row mx-2 mt-3 mt-md-5">
+                        <input type="text" class="custom-input" placeholder="Enter Name">
+                    </div>
+                    <div class="row mx-2 mt-3 mt-md-5">
+                        <input type="number" class="custom-input" placeholder="Enter Your Number">
+                    </div>
+                    <div class="row mx-2 mt-3 mt-md-5">
+                        <input type="email" class="custom-input" placeholder="Enter Your Email">
+                    </div>
+                    <div class="row mx-2 mt-3 mt-md-5">
+                        <select class="custom-input" id="">
+                            <option disabled selected>How Many People ?</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="row mx-2 mt-3 mt-md-5">
+                        <input type="date" class="custom-input" name="" id="">
+                    </div>
+                    <div class="row mx-2 mt-3 mt-md-5">
+                        <button type="button" class=" col-5  btn btn-lg-lg btn-primary">Order Now </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <iframe class="my-5 pb-5"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7343.261996540133!2d72.5599943129822!3d23.037317087913515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f23b385603%3A0x7defef3cb13115e0!2sUnlocked%20Cafe!5e0!3m2!1sen!2sin!4v1720026802795!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border-radius:10px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark mt-5">
+        <div class="container bg-dark">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+                <div class="pt-5">
+                    <section>
+                        <div class="container text-center text-white text-md-start mt-5">
+                            <!-- Grid row -->
+                            <div class="row mt-3">
+                                <!-- Grid column -->
+                                <div class="col-lg-3 col-md-4   mx-auto mb-4">
+                                    <!-- Links -->
+                                    <h4 class="text-uppercase text-center fw-bold mb-4">Opening Hours</h4>
+                                    <p class="text-center">Everyday</p>
+                                    <p class="text-center">10:00 AM - 10:00 PM</p>
+                                </div>
+                                <!-- Grid column -->
+                                <div class="col-lg-6 col-md-4  mx-auto mb-4">
+                                    <!-- Content -->
+                                    <h4 class="text-uppercase text-center fw-bold mb-4">
+                                        <i class="fa-solid fa-burger me-1"></i> Burger Mania
+                                    </h4>
+                                    <p class="text-center">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae magni
+                                        aspernatur magnam explicabo obcaecati nihil labore nesciunt, unde pariatur
+                                        dolorem!
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+                                <div class="col-lg-3 col-md-4  mx-auto mb-md-0 mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                                    <p><i class="fas fa-envelope me-3"></i> info@example.com</p>
+                                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                                </div>
+                                <!-- Grid column -->
+                            </div>
+                            <!-- Grid row -->
+                        </div>
+                    </section>
+                    <!-- Section: Links  -->
+                    <hr>
+                    <!-- Copyright -->
+                    <div class="row text-center">
+                        <p>© 2021 Copyright:Burger Mani</p>
+                    </div>
+                </div>
+                <!-- Section: Links  -->
+            </footer>
+            <!-- Footer -->
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,2 +1,2 @@
-# CodeSoft
-CodeSoft Project Web Devlopment
+# Prodigy InfoTech
+ Project Web Devlopment
